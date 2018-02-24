@@ -1,0 +1,160 @@
+BODY {
+	margin: 0px;
+	padding: 0px;
+	background: url('drop_shadow.jpg') center top;
+	color: black;
+	font: arial;
+} 
+
+A:link {background: none; color: dimgray; text-decoration: none; cursor: pointer;}
+A:visited {background: none; color: dimgray; text-decoration: none; cursor: pointer;}
+A:hover {background: none; color: maroon; text-decoration: none; cursor: pointer;}
+A:active { background: none; color: dimgray; background: none; cursor: pointer;}
+
+.Global {
+width: 780px;
+height: 100%;
+margin-left: auto;
+margin-right: auto;
+background: white;
+font: verdana
+}
+
+.Global TD {
+	vertical-align: top;
+	font-family: garamond, sans-serif;
+	font-size: 16px;
+}
+
+.Header_Text {
+font: bold 28px verdana, serif;
+margin: 0px 0px 0px 0px;
+color: dimgray;
+background: white;
+border-top: 1px dotted white;
+border-bottom: 1px dotted white;
+}
+
+.Header_Image {
+background: url('header-shalaginov.jpg') no-repeat;
+width: 780;
+height: 140px;
+padding: 0px; 
+margin-left: 0px;
+}
+
+.MenuColTD {
+width: 180px;
+background: transparent;
+color: inherit;
+font: normal 13px arial,sans-serif;
+border-right: 1px dotted dimgray;
+}
+
+.Menu {
+	margin: 0px 10px 10px 15px;
+	text-align: left;
+	font-size: 12px
+}
+
+.Menu A {
+	display: block;
+	width: auto;
+	height: 20px;
+	text-align: left;
+	text-indent: 20px;
+	font-weight: bold;
+}
+
+.Content {
+font: 12px verdana, sans-serif;
+width: 600px;
+padding: 10px 20px 20px 20px;
+background: transparent;
+color: inherit;
+text-align: justify;
+}
+
+.journaltable, .boldtable TD, .boldtable TH
+{
+font: 12px verdana, sans-serif;
+line-height: 150%;
+text-align: justify;
+color:black;
+background-color:white;
+}
+
+
+.FIX_FIREFOX {}
+html:not([dummy]) .Content {
+width: 560px;
+}
+.FIX_OPERA {}
+@media all and (min-width: 0px) {
+.Content {width: 560px;}
+}
+
+.Content A:link {background: none; color: mediumblue; text-decoration: none; cursor: pointer;}
+.Content A:visited {background: none; color: dimgray; text-decoration: underline; cursor: pointer;}
+.Content A:hover {background: none; color: maroon; text-decoration: underline; cursor: pointer;}
+.Content A:active { background: none; color: dimgray; background: underline; cursor: pointer;}
+
+.HeadingStyle {
+	background: inherit;
+	color: #000;
+	font: bold 20px sans-serif;
+	font-size: 18pt;
+	font-family: sans-serif;
+}
+
+P {
+	font: 16px garamond,sans-serif;
+	line-height: 120%;
+	font-size: 16px;
+}
+
+.Padded {
+padding: 20px;
+}
+
+.SmallFont {
+font: 14px garamond,sans-serif;
+}
+
+.MedFontBold {
+FONT: bold 15px garamond,sans-serif;
+}
+
+.SmallFont TD {
+font: 13px sans-serif;
+}
+
+.MedFontBold TD {
+font: bold 15px garamond,sans-serif;
+}
+
+.Footer {
+color: #000000;
+font: 13pt sans-serif;
+height: 50px;
+text-align: center;
+vertical-align: top;
+}
+
+.FooterWrap {
+border-top: 1px dotted dimgray;
+margin-top: 10px;
+padding-top: 10px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.Copyright {
+	margin-left: 50px;
+	font-size: 9pt;
+}
+.Global tr .Content .headingStyle {
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 18pt;
+}
